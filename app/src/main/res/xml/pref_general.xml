@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:key="serverUrl"
+        android:title="@string/pref_title_server_url"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <EditTextPreference
+        android:key="password"
+        android:title="@string/pref_title_password"
+        android:summary="@string/pref_summary_password"
+        android:inputType="textPassword" />
+
+</PreferenceScreen>
